@@ -1,0 +1,10 @@
+CRITICAL - 2022-10-18 06:00:00 --> syntax error, unexpected token ")"
+in APPPATH\Views\activity\laporan.php on line 85.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 3 APPPATH\Controllers\Activity.php(113): view('/activity/laporan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

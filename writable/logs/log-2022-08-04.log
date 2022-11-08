@@ -1,0 +1,94 @@
+CRITICAL - 2022-08-04 09:57:19 --> Call to undefined method Myth\Auth\Models\UserModel::addUserToGroup
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Admin.php(171): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->editKaryawan()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-04 09:58:14 --> Call to undefined method Myth\Auth\Models\UserModel::addUserToGroup
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Admin.php(171): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->editKaryawan()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-04 09:59:36 --> Myth\Auth\Models\GroupModel::addUserToGroup(): Argument #2 ($groupId) must be of type int, null given, called in /home/ashcii/Documents/Absensi/app/Controllers/Admin.php on line 171
+in VENDORPATH/myth/auth/src/Models/GroupModel.php on line 41.
+ 1 APPPATH/Controllers/Admin.php(171): Myth\Auth\Models\GroupModel->addUserToGroup()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->editKaryawan()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-04 09:59:55 --> Myth\Auth\Models\GroupModel::addUserToGroup(): Argument #2 ($groupId) must be of type int, null given, called in /home/ashcii/Documents/Absensi/app/Controllers/Admin.php on line 171
+in VENDORPATH/myth/auth/src/Models/GroupModel.php on line 41.
+ 1 APPPATH/Controllers/Admin.php(171): Myth\Auth\Models\GroupModel->addUserToGroup()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->editKaryawan()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-04 10:01:30 --> Myth\Auth\Models\GroupModel::addUserToGroup(): Argument #2 ($groupId) must be of type int, null given, called in /home/ashcii/Documents/Absensi/app/Controllers/Admin.php on line 171
+in VENDORPATH/myth/auth/src/Models/GroupModel.php on line 41.
+ 1 APPPATH/Controllers/Admin.php(171): Myth\Auth\Models\GroupModel->addUserToGroup()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->editKaryawan()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-04 10:04:35 --> Myth\Auth\Models\GroupModel::addUserToGroup(): Argument #2 ($groupId) must be of type int, null given, called in /home/ashcii/Documents/Absensi/app/Controllers/Admin.php on line 171
+in VENDORPATH/myth/auth/src/Models/GroupModel.php on line 41.
+ 1 APPPATH/Controllers/Admin.php(171): Myth\Auth\Models\GroupModel->addUserToGroup()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->editKaryawan()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-04 10:09:15 --> Myth\Auth\Models\GroupModel::addUserToGroup(): Argument #2 ($groupId) must be of type int, null given, called in /home/ashcii/Documents/Absensi/app/Controllers/Admin.php on line 171
+in VENDORPATH/myth/auth/src/Models/GroupModel.php on line 41.
+ 1 APPPATH/Controllers/Admin.php(171): Myth\Auth\Models\GroupModel->addUserToGroup()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->editKaryawan()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-04 10:15:29 --> Undefined property: App\Controllers\Admin::$modelKaryawan
+in APPPATH/Controllers/Admin.php on line 184.
+ 1 APPPATH/Controllers/Admin.php(184): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->deleteKaryawan()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-04 11:19:50 --> Call to undefined method CodeIgniter\Validation\Validation::Errors()
+in APPPATH/Views/dashboard/staff.php on line 9.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 4 APPPATH/Views/dashboard.php(12): CodeIgniter\View\View->include()
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Dashboard.php(23): view()
+ 9 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+10 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-04 11:49:54 --> Undefined constant "Y"
+in APPPATH/Views/dashboard/staff.php on line 6.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 4 APPPATH/Views/dashboard.php(12): CodeIgniter\View\View->include()
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 8 APPPATH/Controllers/Dashboard.php(23): view()
+ 9 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+10 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

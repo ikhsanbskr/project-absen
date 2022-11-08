@@ -1,0 +1,112 @@
+CRITICAL - 2022-10-17 10:50:19 --> Invalid file: /activity/laporan.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/activity/laporan.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 3 APPPATH\Controllers\Activity.php(111): view('/activity/laporan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 10:52:50 --> Undefined variable $tanggal
+in APPPATH\Views\activity\laporan.php on line 19.
+ 1 APPPATH\Views\activity\laporan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'APPPATH\\Views\\activity\\laporan.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(111): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-17 10:55:06 --> Undefined variable $tanggal
+in APPPATH\Views\activity\laporan.php on line 34.
+ 1 APPPATH\Views\activity\laporan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'APPPATH\\Views\\activity\\laporan.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(111): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-17 13:20:02 --> Column 'tanggal' in where clause is ambiguous
+CRITICAL - 2022-10-17 13:20:02 --> Column 'tanggal' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+JOIN `absensi` ON `absensi`.`userid` = `daily_activity`.`userid`
+WHERE `tanggal` = \'2022-10-17\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+JOIN `absensi` ON `absensi`.`userid` = `daily_activity`.`userid`
+WHERE `tanggal` = \'2022-10-17\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+JOIN `absensi` ON `absensi`.`userid` = `daily_activity`.`userid`
+WHERE `tanggal` = \'2022-10-17\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+JOIN `absensi` ON `absensi`.`userid` = `daily_activity`.`userid`
+WHERE `tanggal` = :tanggal:', [...], false)
+ 5 APPPATH\Models\ModelActivity.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Activity.php(110): App\Models\ModelActivity->getReport('2022-10-17')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-17 13:21:24 --> Column 'tanggal' in where clause is ambiguous
+CRITICAL - 2022-10-17 13:21:24 --> Column 'tanggal' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+JOIN `absensi` ON `absensi`.`userid` = `daily_activity`.`userid`
+WHERE `tanggal` = \'2022-10-17\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+JOIN `absensi` ON `absensi`.`userid` = `daily_activity`.`userid`
+WHERE `tanggal` = \'2022-10-17\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+JOIN `absensi` ON `absensi`.`userid` = `daily_activity`.`userid`
+WHERE `tanggal` = \'2022-10-17\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+JOIN `absensi` ON `absensi`.`userid` = `daily_activity`.`userid`
+WHERE `tanggal` = :tanggal:', [...], false)
+ 5 APPPATH\Models\ModelActivity.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Activity.php(110): App\Models\ModelActivity->getReport('2022-10-17')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-17 13:21:25 --> Column 'tanggal' in where clause is ambiguous
+CRITICAL - 2022-10-17 13:21:25 --> Column 'tanggal' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+JOIN `absensi` ON `absensi`.`userid` = `daily_activity`.`userid`
+WHERE `tanggal` = \'2022-10-17\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+JOIN `absensi` ON `absensi`.`userid` = `daily_activity`.`userid`
+WHERE `tanggal` = \'2022-10-17\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+JOIN `absensi` ON `absensi`.`userid` = `daily_activity`.`userid`
+WHERE `tanggal` = \'2022-10-17\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+JOIN `absensi` ON `absensi`.`userid` = `daily_activity`.`userid`
+WHERE `tanggal` = :tanggal:', [...], false)
+ 5 APPPATH\Models\ModelActivity.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Activity.php(110): App\Models\ModelActivity->getReport('2022-10-17')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

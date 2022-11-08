@@ -1,0 +1,63 @@
+CRITICAL - 2022-09-04 22:19:46 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 350.
+ 1 APPPATH/Models/ModelAbsensi.php(350): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-04 22:20:01 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 350.
+ 1 APPPATH/Models/ModelAbsensi.php(350): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-04 22:20:05 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 350.
+ 1 APPPATH/Models/ModelAbsensi.php(350): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-04 22:20:31 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 350.
+ 1 APPPATH/Models/ModelAbsensi.php(350): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-04 22:20:38 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 350.
+ 1 APPPATH/Models/ModelAbsensi.php(350): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-04 22:21:49 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 350.
+ 1 APPPATH/Models/ModelAbsensi.php(350): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-04 22:22:52 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 350.
+ 1 APPPATH/Models/ModelAbsensi.php(350): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

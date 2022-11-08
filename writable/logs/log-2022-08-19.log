@@ -1,0 +1,1281 @@
+CRITICAL - 2022-08-19 10:17:38 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 33.
+ 1 APPPATH/Controllers/Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:27:01 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:29:22 --> array_key_exists(): Argument #2 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:30:02 --> array_key_exists(): Argument #2 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:30:02 --> array_key_exists(): Argument #2 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:30:02 --> array_key_exists(): Argument #2 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:30:51 --> array_key_exists(): Argument #2 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 122.
+ 1 APPPATH/Controllers/Dashboard.php(122): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:31:17 --> array_key_exists(): Argument #2 ($array) must be of type array, stdClass given
+in APPPATH/Controllers/Dashboard.php on line 122.
+ 1 APPPATH/Controllers/Dashboard.php(122): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:31:20 --> array_key_exists(): Argument #2 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 122.
+ 1 APPPATH/Controllers/Dashboard.php(122): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:34:11 --> Attempt to read property "nama" on array
+in APPPATH/Controllers/Dashboard.php on line 115.
+ 1 APPPATH/Controllers/Dashboard.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:34:27 --> Undefined array key "nama"
+in APPPATH/Controllers/Dashboard.php on line 115.
+ 1 APPPATH/Controllers/Dashboard.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:34:51 --> array_key_exists(): Argument #2 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 115.
+ 1 APPPATH/Controllers/Dashboard.php(115): array_key_exists()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:43:34 --> syntax error, unexpected token "and", expecting "->" or "?->" or "{" or "["
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:43:39 --> syntax error, unexpected token "and", expecting "->" or "?->" or "{" or "["
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:43:42 --> syntax error, unexpected token "and", expecting "->" or "?->" or "{" or "["
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:44:47 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:45:01 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/Dashboard.php on line 121.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:45:04 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:45:15 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:46:25 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:52:03 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:55:34 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:56:50 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Dashboard.php on line 115.
+ 1 APPPATH/Controllers/Dashboard.php(115): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:58:03 --> Attempt to read property "nama" on array
+in APPPATH/Views/dashboard/staff.php on line 48.
+ 1 APPPATH/Views/dashboard/staff.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/staff.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard.php(9): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Dashboard.php(32): view()
+10 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 10:58:50 --> Attempt to read property "jabatan" on array
+in APPPATH/Views/dashboard/staff.php on line 52.
+ 1 APPPATH/Views/dashboard/staff.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/staff.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard.php(9): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Dashboard.php(32): view()
+10 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:00:17 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(115): array_combine()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:00:49 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(115): array_combine()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:01:04 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(115): array_combine()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:01:05 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(115): array_combine()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-08-19 11:07:32 --> Unknown column 'nama users.nama' in 'field list'
+CRITICAL - 2022-08-19 11:07:32 --> Unknown column 'nama users.nama' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Dashboard.php(114): Myth\Auth\Models\UserModel->getStaff()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:11:23 --> Attempt to read property "tanggal" on int
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:11:34 --> Trying to access array offset on value of type int
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:11:51 --> Invalid numeric literal
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:12:07 --> Trying to access array offset on value of type int
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:12:07 --> Trying to access array offset on value of type int
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:12:07 --> Trying to access array offset on value of type int
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:12:37 --> Trying to access array offset on value of type int
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:16:44 --> Attempt to read property "tanggal" on array
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:17:14 --> Undefined array key "tanggal"
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:19:40 --> Undefined array key "nama"
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:19:57 --> Attempt to read property "nama" on array
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:20:05 --> Undefined array key "nama"
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:21:06 --> Undefined array key "nama"
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:22:16 --> Attempt to read property "nama" on array
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:23:51 --> Attempt to read property "tanggal" on array
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 APPPATH/Controllers/Dashboard.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:39:23 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:45:04 --> Undefined constant "App\Controllers\i"
+in APPPATH/Controllers/Dashboard.php on line 117.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:45:16 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/Dashboard.php on line 120.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:46:03 --> Attempt to read property "nama" on array
+in APPPATH/Views/dashboard/staff.php on line 79.
+ 1 APPPATH/Views/dashboard/staff.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/staff.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard.php(9): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Dashboard.php(32): view()
+10 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:46:30 --> Attempt to read property "nama" on array
+in APPPATH/Views/dashboard/staff.php on line 48.
+ 1 APPPATH/Views/dashboard/staff.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/staff.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard.php(9): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Dashboard.php(32): view()
+10 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:46:37 --> Attempt to read property "nama" on array
+in APPPATH/Views/dashboard/staff.php on line 48.
+ 1 APPPATH/Views/dashboard/staff.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/staff.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard.php(9): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Dashboard.php(32): view()
+10 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:46:37 --> Attempt to read property "nama" on array
+in APPPATH/Views/dashboard/staff.php on line 48.
+ 1 APPPATH/Views/dashboard/staff.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/staff.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard.php(9): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Dashboard.php(32): view()
+10 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:46:38 --> Attempt to read property "nama" on array
+in APPPATH/Views/dashboard/staff.php on line 48.
+ 1 APPPATH/Views/dashboard/staff.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/staff.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard.php(9): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Dashboard.php(32): view()
+10 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 11:47:31 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 12:45:56 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/Dashboard.php on line 123.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 12:48:45 --> Undefined constant "App\Controllers\halo"
+in APPPATH/Controllers/Dashboard.php on line 120.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:01:57 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/Dashboard.php on line 130.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:09:08 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/Dashboard.php on line 128.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:37:15 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/Dashboard.php on line 129.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:37:24 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/Dashboard.php on line 129.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:38:20 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH/Controllers/Dashboard.php on line 131.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:39:03 --> Attempt to read property "nama" on bool
+in APPPATH/Controllers/Dashboard.php on line 120.
+ 1 APPPATH/Controllers/Dashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:50:12 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 115.
+ 1 APPPATH/Controllers/Dashboard.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:50:39 --> syntax error, unexpected token "}"
+in APPPATH/Controllers/Dashboard.php on line 136.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:53:55 --> Undefined property: stdClass::$usersid
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 APPPATH/Controllers/Dashboard.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:54:00 --> Undefined property: stdClass::$userid
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 APPPATH/Controllers/Dashboard.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:58:56 --> preg_split(): Argument #2 ($subject) must be of type string, array given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): preg_split()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:59:26 --> preg_split(): Argument #2 ($subject) must be of type string, array given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): preg_split()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:59:27 --> preg_split(): Argument #2 ($subject) must be of type string, array given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): preg_split()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:59:28 --> preg_split(): Argument #2 ($subject) must be of type string, array given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): preg_split()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:59:35 --> preg_split(): Argument #2 ($subject) must be of type string, array given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): preg_split()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:59:35 --> preg_split(): Argument #2 ($subject) must be of type string, array given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): preg_split()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:59:42 --> preg_split(): Argument #2 ($subject) must be of type string, array given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): preg_split()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 13:59:42 --> preg_split(): Argument #2 ($subject) must be of type string, array given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): preg_split()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:01:30 --> preg_split(): Argument #2 ($subject) must be of type string, array given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): preg_split()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:01:31 --> preg_split(): Argument #2 ($subject) must be of type string, array given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): preg_split()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:01:31 --> preg_split(): Argument #2 ($subject) must be of type string, array given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): preg_split()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:01:34 --> array_unique(): Argument #1 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 APPPATH/Controllers/Dashboard.php(118): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:02:03 --> array_unique(): Argument #1 ($array) must be of type array, stdClass given
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 APPPATH/Controllers/Dashboard.php(118): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:02:04 --> array_unique(): Argument #1 ($array) must be of type array, stdClass given
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 APPPATH/Controllers/Dashboard.php(118): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:02:43 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:02:44 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:03:09 --> array_unique(): Argument #1 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 APPPATH/Controllers/Dashboard.php(118): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:05:56 --> array_unique(): Argument #1 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 APPPATH/Controllers/Dashboard.php(118): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:06:12 --> Undefined constant "App\Controllers\dsa"
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:06:16 --> array_unique(): Argument #1 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 APPPATH/Controllers/Dashboard.php(118): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:10:20 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 120.
+ 1 APPPATH/Controllers/Dashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:10:20 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 120.
+ 1 APPPATH/Controllers/Dashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:10:21 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 120.
+ 1 APPPATH/Controllers/Dashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:10:21 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 120.
+ 1 APPPATH/Controllers/Dashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:10:21 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 120.
+ 1 APPPATH/Controllers/Dashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:10:21 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 120.
+ 1 APPPATH/Controllers/Dashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:10:47 --> explode(): Argument #1 ($separator) cannot be empty
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 APPPATH/Controllers/Dashboard.php(118): explode()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:10:50 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 120.
+ 1 APPPATH/Controllers/Dashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:10:52 --> explode(): Argument #1 ($separator) cannot be empty
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 APPPATH/Controllers/Dashboard.php(118): explode()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:11:44 --> array_unique(): Argument #1 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:11:45 --> array_unique(): Argument #1 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:11:45 --> array_unique(): Argument #1 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:12:27 --> Attempt to read property "nama" on array
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 APPPATH/Controllers/Dashboard.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:12:41 --> array_unique(): Argument #1 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:13:30 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 2 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:13:36 --> array_unique(): Argument #1 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:15:14 --> Attempt to read property "nama" on array
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 APPPATH/Controllers/Dashboard.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:15:38 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 120.
+ 1 APPPATH/Controllers/Dashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:17:13 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): explode()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:18:03 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 121.
+ 1 APPPATH/Controllers/Dashboard.php(121): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:18:08 --> Attempt to read property "nama" on array
+in APPPATH/Controllers/Dashboard.php on line 121.
+ 1 APPPATH/Controllers/Dashboard.php(121): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:18:16 --> syntax error, unexpected integer "0", expecting identifier or variable or "{" or "$"
+in APPPATH/Controllers/Dashboard.php on line 121.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:18:37 --> array_unique(): Argument #1 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 118.
+ 1 APPPATH/Controllers/Dashboard.php(118): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:18:47 --> array_unique(): Argument #1 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:18:54 --> array_unique(): Argument #1 ($array) must be of type array, string given
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:19:04 --> array_unique(): Argument #1 ($array) must be of type array, stdClass given
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:19:24 --> array_unique(): Argument #1 ($array) must be of type array, stdClass given
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:19:51 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:20:03 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:20:08 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:20:21 --> Attempt to read property "nama" on array
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:20:26 --> array_unique(): Argument #1 ($array) must be of type array, stdClass given
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 14:20:37 --> array_unique(): Argument #1 ($array) must be of type array, stdClass given
+in APPPATH/Controllers/Dashboard.php on line 119.
+ 1 APPPATH/Controllers/Dashboard.php(119): array_unique()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 15:06:42 --> Undefined variable $s
+in APPPATH/Controllers/Dashboard.php on line 128.
+ 1 APPPATH/Controllers/Dashboard.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 15:22:41 --> foreach() argument must be of type array|object, string given
+in APPPATH/Controllers/Dashboard.php on line 135.
+ 1 APPPATH/Controllers/Dashboard.php(135): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 15:26:13 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 15:43:14 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 15:43:32 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-08-19 15:46:19 --> Unknown column 'name' in 'where clause'
+CRITICAL - 2022-08-19 15:46:19 --> Unknown column 'name' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Dashboard.php(114): Myth\Auth\Models\UserModel->getStaff()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-08-19 15:46:32 --> Unknown column 'name' in 'where clause'
+CRITICAL - 2022-08-19 15:46:32 --> Unknown column 'name' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Dashboard.php(114): Myth\Auth\Models\UserModel->getStaff()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-08-19 15:46:32 --> Unknown column 'name' in 'where clause'
+CRITICAL - 2022-08-19 15:46:32 --> Unknown column 'name' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Dashboard.php(114): Myth\Auth\Models\UserModel->getStaff()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-08-19 15:46:35 --> Unknown column 'name' in 'where clause'
+CRITICAL - 2022-08-19 15:46:35 --> Unknown column 'name' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Dashboard.php(24): Myth\Auth\Models\UserModel->getStaff()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 15:49:42 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 15:50:03 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 15:50:08 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 15:50:08 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-19 15:50:09 --> array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+in APPPATH/Controllers/Dashboard.php on line 116.
+ 1 APPPATH/Controllers/Dashboard.php(116): array_combine()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-08-19 15:51:19 --> Unknown column 'date' in 'where clause'
+CRITICAL - 2022-08-19 15:51:19 --> Unknown column 'date' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Dashboard.php(114): Myth\Auth\Models\UserModel->getStaff()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-08-19 15:51:40 --> Unknown column 'date' in 'where clause'
+CRITICAL - 2022-08-19 15:51:40 --> Unknown column 'date' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Dashboard.php(114): Myth\Auth\Models\UserModel->getStaff()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-08-19 15:51:40 --> Unknown column 'date' in 'where clause'
+CRITICAL - 2022-08-19 15:51:40 --> Unknown column 'date' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Dashboard.php(114): Myth\Auth\Models\UserModel->getStaff()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-08-19 15:51:40 --> Unknown column 'date' in 'where clause'
+CRITICAL - 2022-08-19 15:51:40 --> Unknown column 'date' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Dashboard.php(114): Myth\Auth\Models\UserModel->getStaff()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-08-19 15:51:41 --> Unknown column 'date' in 'where clause'
+CRITICAL - 2022-08-19 15:51:41 --> Unknown column 'date' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Dashboard.php(114): Myth\Auth\Models\UserModel->getStaff()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->alfa()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-08-19 16:04:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `absensi` ON `absensi`.`userid` = `users`.`id`
+WHERE `name` = 'Sta...' at line 5
+CRITICAL - 2022-08-19 16:04:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `absensi` ON `absensi`.`userid` = `users`.`id`
+WHERE `name` = 'Sta...' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(54): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Dashboard.php(24): Myth\Auth\Models\UserModel->getStaff()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-08-19 16:05:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `absensi` ON `absensi`.`userid` = `users`.`id`
+WHERE `name` = 'Sta...' at line 5
+CRITICAL - 2022-08-19 16:05:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `absensi` ON `absensi`.`userid` = `users`.`id`
+WHERE `name` = 'Sta...' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(54): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Dashboard.php(24): Myth\Auth\Models\UserModel->getStaff()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

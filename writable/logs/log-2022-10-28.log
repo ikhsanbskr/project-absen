@@ -1,0 +1,291 @@
+CRITICAL - 2022-10-28 05:06:55 --> Attempt to read property "nama" on string
+in APPPATH\Views\activity\laporan.php on line 111.
+ 1 APPPATH\Views\activity\laporan.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on string', 'APPPATH\\Views\\activity\\laporan.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(181): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:07:19 --> Attempt to read property "nama" on string
+in APPPATH\Views\activity\laporan.php on line 111.
+ 1 APPPATH\Views\activity\laporan.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on string', 'APPPATH\\Views\\activity\\laporan.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(181): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-28 05:12:28 --> Unknown column 'tanggal_activity' in 'where clause'
+CRITICAL - 2022-10-28 05:12:28 --> Unknown column 'tanggal_activity' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `absensi`
+JOIN `users` ON `users`.`id` = `absensi`.`userid`
+WHERE `tanggal_activity` = \'2022-10-28\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `absensi`
+JOIN `users` ON `users`.`id` = `absensi`.`userid`
+WHERE `tanggal_activity` = \'2022-10-28\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `absensi`
+JOIN `users` ON `users`.`id` = `absensi`.`userid`
+WHERE `tanggal_activity` = \'2022-10-28\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `absensi`
+JOIN `users` ON `users`.`id` = `absensi`.`userid`
+WHERE `tanggal_activity` = :tanggal_activity:', [...], false)
+ 5 APPPATH\Models\ModelActivity.php(38): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Controllers\Activity.php(176): App\Models\ModelActivity->countStaffActivity('2022-10-28')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-28 05:15:25 --> Unknown column 'absensi.userid' in 'on clause'
+CRITICAL - 2022-10-28 05:15:25 --> Unknown column 'absensi.userid' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `daily_activity`
+JOIN `users` ON `users`.`id` = `absensi`.`userid`
+WHERE `tanggal_activity` = \'2022-10-28\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `daily_activity`
+JOIN `users` ON `users`.`id` = `absensi`.`userid`
+WHERE `tanggal_activity` = \'2022-10-28\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `daily_activity`
+JOIN `users` ON `users`.`id` = `absensi`.`userid`
+WHERE `tanggal_activity` = \'2022-10-28\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `daily_activity`
+JOIN `users` ON `users`.`id` = `absensi`.`userid`
+WHERE `tanggal_activity` = :tanggal_activity:', [...], false)
+ 5 APPPATH\Models\ModelActivity.php(38): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Controllers\Activity.php(176): App\Models\ModelActivity->countStaffActivity('2022-10-28')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-28 05:15:29 --> Unknown column 'absensi.userid' in 'on clause'
+CRITICAL - 2022-10-28 05:15:29 --> Unknown column 'absensi.userid' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `daily_activity`
+JOIN `users` ON `users`.`id` = `absensi`.`userid`
+WHERE `tanggal_activity` = \'2022-10-28\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `daily_activity`
+JOIN `users` ON `users`.`id` = `absensi`.`userid`
+WHERE `tanggal_activity` = \'2022-10-28\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `daily_activity`
+JOIN `users` ON `users`.`id` = `absensi`.`userid`
+WHERE `tanggal_activity` = \'2022-10-28\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `daily_activity`
+JOIN `users` ON `users`.`id` = `absensi`.`userid`
+WHERE `tanggal_activity` = :tanggal_activity:', [...], false)
+ 5 APPPATH\Models\ModelActivity.php(38): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Controllers\Activity.php(176): App\Models\ModelActivity->countStaffActivity('2022-10-28')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:17:26 --> Attempt to read property "aktifitas" on string
+in APPPATH\Views\activity\laporan.php on line 100.
+ 1 APPPATH\Views\activity\laporan.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aktifitas" on string', 'APPPATH\\Views\\activity\\laporan.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(181): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:17:33 --> Undefined property: stdClass::$activity
+in APPPATH\Views\activity\laporan.php on line 100.
+ 1 APPPATH\Views\activity\laporan.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$activity', 'APPPATH\\Views\\activity\\laporan.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(181): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:17:50 --> Attempt to read property "aktifitas" on string
+in APPPATH\Views\activity\laporan.php on line 100.
+ 1 APPPATH\Views\activity\laporan.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aktifitas" on string', 'APPPATH\\Views\\activity\\laporan.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(181): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:21:19 --> syntax error, unexpected token "if", expecting "," or ";"
+in APPPATH\Controllers\Dashboard.php on line 172.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Dashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Dashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:33:47 --> Undefined property: CodeIgniter\View\View::$modelActivity
+in APPPATH\Views\activity\laporan.php on line 100.
+ 1 APPPATH\Views\activity\laporan.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$modelActivity', 'APPPATH\\Views\\activity\\laporan.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(181): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:35:17 --> Call to undefined method App\Models\ModelActivity::countStaffNull
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Views\activity\laporan.php(100): CodeIgniter\Model->__call('countStaffNull', [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(182): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:39:44 --> Object of type App\Models\ModelActivity is not callable
+in APPPATH\Views\activity\laporan.php on line 100.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 4 APPPATH\Controllers\Activity.php(182): view('/activity/laporan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:39:52 --> Call to undefined method App\Models\ModelActivity::countStaffNull
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Views\activity\laporan.php(100): CodeIgniter\Model->__call('countStaffNull', [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(182): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:40:00 --> Object of class App\Models\ModelActivity could not be converted to int
+in APPPATH\Views\activity\laporan.php on line 102.
+ 1 APPPATH\Views\activity\laporan.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class App\\Models\\ModelActivity could not be converted to int', 'APPPATH\\Views\\activity\\laporan.php', 102)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(182): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:40:55 --> Undefined variable $count
+in APPPATH\Views\activity\laporan.php on line 102.
+ 1 APPPATH\Views\activity\laporan.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $count', 'APPPATH\\Views\\activity\\laporan.php', 102)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(182): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:44:04 --> Undefined property: stdClass::$activity
+in APPPATH\Views\activity\laporan.php on line 105.
+ 1 APPPATH\Views\activity\laporan.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$activity', 'APPPATH\\Views\\activity\\laporan.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(182): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:44:26 --> Undefined property: stdClass::$activity
+in APPPATH\Views\activity\laporan.php on line 105.
+ 1 APPPATH\Views\activity\laporan.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$activity', 'APPPATH\\Views\\activity\\laporan.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(182): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:44:37 --> Attempt to read property "aktifitas" on string
+in APPPATH\Views\activity\laporan.php on line 105.
+ 1 APPPATH\Views\activity\laporan.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aktifitas" on string', 'APPPATH\\Views\\activity\\laporan.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(182): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 05:44:41 --> Attempt to read property "aktifitas" on array
+in APPPATH\Views\activity\laporan.php on line 105.
+ 1 APPPATH\Views\activity\laporan.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "aktifitas" on array', 'APPPATH\\Views\\activity\\laporan.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(182): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 18:52:03 --> Undefined property: stdClass::$tanggal
+in APPPATH\Views\activity\input_filter.php on line 86.
+ 1 APPPATH\Views\activity\input_filter.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tanggal', 'APPPATH\\Views\\activity\\input_filter.php', 86)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\input_filter.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/input_filter', [], true)
+ 5 APPPATH\Controllers\Activity.php(112): view('/activity/input_filter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->filterActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-28 18:58:55 --> Undefined property: stdClass::$tanggal
+in APPPATH\Views\activity\input_filter.php on line 86.
+ 1 APPPATH\Views\activity\input_filter.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tanggal', 'APPPATH\\Views\\activity\\input_filter.php', 86)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\input_filter.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/input_filter', [], true)
+ 5 APPPATH\Controllers\Activity.php(113): view('/activity/input_filter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->filterActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

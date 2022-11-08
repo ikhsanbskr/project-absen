@@ -1,0 +1,1006 @@
+CRITICAL - 2022-07-09 00:41:32 --> Undefined array key "nama_karyawan"
+in APPPATH\Views\admin\karyawan.php on line 41.
+ 1 APPPATH\Views\admin\karyawan.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_karyawan"', 'APPPATH\\Views\\admin\\karyawan.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\karyawan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(22): view('admin/karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Karyawan->show()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-09 00:47:17 --> Unknown column 'kode_karyawan' in 'where clause'
+CRITICAL - 2022-07-09 00:47:17 --> Unknown column 'kode_karyawan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'213482\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'213482\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'213482\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = :kode_karyawan:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('213482', 'kode_karyawan', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('kode_karyawan', 'kode_karyawan', '213482', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin.php(29): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->saveKaryawan()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-09 00:47:43 --> Unknown column 'kode_karyawan' in 'where clause'
+CRITICAL - 2022-07-09 00:47:43 --> Unknown column 'kode_karyawan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'213482\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'213482\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'213482\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = :kode_karyawan:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('213482', 'kode_karyawan', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('kode_karyawan', 'kode_karyawan', '213482', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin.php(29): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->saveKaryawan()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-09 00:47:45 --> Unknown column 'kode_karyawan' in 'where clause'
+CRITICAL - 2022-07-09 00:47:45 --> Unknown column 'kode_karyawan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'213482\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'213482\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'213482\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = :kode_karyawan:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('213482', 'kode_karyawan', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('kode_karyawan', 'kode_karyawan', '213482', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin.php(29): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->saveKaryawan()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-09 00:48:34 --> Unknown column 'kode_karyawan' in 'where clause'
+CRITICAL - 2022-07-09 00:48:34 --> Unknown column 'kode_karyawan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'213482\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'213482\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'213482\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = :kode_karyawan:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('213482', 'kode_karyawan', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('kode_karyawan', 'kode_karyawan', '213482', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin.php(29): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->saveKaryawan()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-09 00:49:18 --> Unknown column 'kode_karyawan' in 'where clause'
+CRITICAL - 2022-07-09 00:49:18 --> Unknown column 'kode_karyawan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'213482\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'213482\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'213482\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = :kode_karyawan:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('213482', 'kode_karyawan', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('kode_karyawan', 'kode_karyawan', '213482', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin.php(29): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->saveKaryawan()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-09 00:50:45 --> Unknown column 'kode_karyawan' in 'where clause'
+CRITICAL - 2022-07-09 00:50:45 --> Unknown column 'kode_karyawan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'201923\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'201923\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'201923\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = :kode_karyawan:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('201923', 'kode_karyawan', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('nik', 'nik', '201923', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin.php(29): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->saveKaryawan()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-09 00:51:35 --> Unknown column 'kode_karyawan' in 'where clause'
+CRITICAL - 2022-07-09 00:51:35 --> Unknown column 'kode_karyawan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'201923\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'201923\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'201923\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = :kode_karyawan:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('201923', 'kode_karyawan', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('nik', 'nik', '201923', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin.php(29): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->saveKaryawan()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-09 00:52:01 --> Unknown column 'kode_karyawan' in 'where clause'
+CRITICAL - 2022-07-09 00:52:01 --> Unknown column 'kode_karyawan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'201923\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'201923\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'201923\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = :kode_karyawan:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('201923', 'kode_karyawan', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('nik', 'nik', '201923', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin.php(29): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->saveKaryawan()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-09 00:52:04 --> Unknown column 'kode_karyawan' in 'where clause'
+CRITICAL - 2022-07-09 00:52:04 --> Unknown column 'kode_karyawan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'201923\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'201923\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'201923\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = :kode_karyawan:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('201923', 'kode_karyawan', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('nik', 'nik', '201923', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin.php(29): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->saveKaryawan()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 00:52:07 --> Undefined property: App\Controllers\Admin::$modelKaryawan
+in APPPATH\Controllers\Admin.php on line 18.
+ 1 APPPATH\Controllers\Admin.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$modelKaryawan', 'APPPATH\\Controllers\\Admin.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 00:52:09 --> Undefined property: App\Controllers\Admin::$modelKaryawan
+in APPPATH\Controllers\Admin.php on line 18.
+ 1 APPPATH\Controllers\Admin.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$modelKaryawan', 'APPPATH\\Controllers\\Admin.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 00:52:13 --> Undefined property: App\Controllers\Admin::$modelKaryawan
+in APPPATH\Controllers\Admin.php on line 18.
+ 1 APPPATH\Controllers\Admin.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$modelKaryawan', 'APPPATH\\Controllers\\Admin.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-09 00:52:42 --> Unknown column 'kode_karyawan' in 'where clause'
+CRITICAL - 2022-07-09 00:52:42 --> Unknown column 'kode_karyawan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'321312\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'321312\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = \'321312\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `karyawan`
+WHERE `kode_karyawan` = :kode_karyawan:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('321312', 'kode_karyawan', [...], null)
+ 7 SYSTEMPATH\Validation\Validation.php(173): CodeIgniter\Validation\Validation->processRules('nik', 'nik', '321312', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin.php(29): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->saveKaryawan()
+11 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 08:08:31 --> Invalid file: profile.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('profile', [], true)
+ 3 APPPATH\Controllers\Admin.php(111): view('profile')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 08:10:17 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 11.
+ 1 APPPATH\Views\layout\template.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 6 APPPATH\Controllers\Admin.php(111): view('layout/profile')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 08:11:06 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 11.
+ 1 APPPATH\Views\layout\template.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 6 APPPATH\Controllers\Admin.php(114): view('layout/profile')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 08:11:07 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 11.
+ 1 APPPATH\Views\layout\template.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 6 APPPATH\Controllers\Admin.php(114): view('layout/profile')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->profile()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 08:31:37 --> Call to undefined method Endroid\QrCode\QrCode::writeFile()
+in APPPATH\Views\layout\profile.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 4 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 08:32:31 --> Call to undefined method Endroid\QrCode\QrCode::saveToFile()
+in APPPATH\Views\layout\profile.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 4 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 08:59:04 --> Call to undefined method Endroid\QrCode\QrCode::writeFile()
+in APPPATH\Views\layout\profile.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 4 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 08:59:05 --> Call to undefined method Endroid\QrCode\QrCode::writeFile()
+in APPPATH\Views\layout\profile.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 4 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 08:59:06 --> Call to undefined method Endroid\QrCode\QrCode::writeFile()
+in APPPATH\Views\layout\profile.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 4 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:14:31 --> Class "Endroid\QrCode\QrCode" not found
+in APPPATH\Views\layout\profile.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 4 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:14:34 --> Class "Endroid\QrCode\QrCode" not found
+in APPPATH\Views\layout\profile.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 4 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:14:51 --> Unable to generate image: check your GD installation
+in VENDORPATH\endroid\qr-code\src\Writer\PngWriter.php on line 27.
+ 1 VENDORPATH\endroid\qr-code\src\Writer\AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+ 2 VENDORPATH\endroid\qr-code\src\QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile(Object(Endroid\QrCode\QrCode), 'uploads/qr-code/123456.png')
+ 3 APPPATH\Views\layout\profile.php(13): Endroid\QrCode\QrCode->writeFile('uploads/qr-code/123456.png')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\profile.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 7 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:14:55 --> Unable to generate image: check your GD installation
+in VENDORPATH\endroid\qr-code\src\Writer\PngWriter.php on line 27.
+ 1 VENDORPATH\endroid\qr-code\src\Writer\AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+ 2 VENDORPATH\endroid\qr-code\src\QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile(Object(Endroid\QrCode\QrCode), 'uploads/qr-code/123456.png')
+ 3 APPPATH\Views\layout\profile.php(13): Endroid\QrCode\QrCode->writeFile('uploads/qr-code/123456.png')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\profile.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 7 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:15:56 --> Unable to generate image: check your GD installation
+in VENDORPATH\endroid\qr-code\src\Writer\PngWriter.php on line 27.
+ 1 VENDORPATH\endroid\qr-code\src\Writer\AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+ 2 VENDORPATH\endroid\qr-code\src\QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile(Object(Endroid\QrCode\QrCode), 'uploads/qr-code/123456.png')
+ 3 APPPATH\Views\layout\profile.php(13): Endroid\QrCode\QrCode->writeFile('uploads/qr-code/123456.png')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\profile.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 7 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:15:56 --> Unable to generate image: check your GD installation
+in VENDORPATH\endroid\qr-code\src\Writer\PngWriter.php on line 27.
+ 1 VENDORPATH\endroid\qr-code\src\Writer\AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+ 2 VENDORPATH\endroid\qr-code\src\QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile(Object(Endroid\QrCode\QrCode), 'uploads/qr-code/123456.png')
+ 3 APPPATH\Views\layout\profile.php(13): Endroid\QrCode\QrCode->writeFile('uploads/qr-code/123456.png')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\profile.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 7 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:15:57 --> Unable to generate image: check your GD installation
+in VENDORPATH\endroid\qr-code\src\Writer\PngWriter.php on line 27.
+ 1 VENDORPATH\endroid\qr-code\src\Writer\AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+ 2 VENDORPATH\endroid\qr-code\src\QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile(Object(Endroid\QrCode\QrCode), 'uploads/qr-code/123456.png')
+ 3 APPPATH\Views\layout\profile.php(13): Endroid\QrCode\QrCode->writeFile('uploads/qr-code/123456.png')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\profile.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 7 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:15:57 --> Unable to generate image: check your GD installation
+in VENDORPATH\endroid\qr-code\src\Writer\PngWriter.php on line 27.
+ 1 VENDORPATH\endroid\qr-code\src\Writer\AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+ 2 VENDORPATH\endroid\qr-code\src\QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile(Object(Endroid\QrCode\QrCode), 'uploads/qr-code/123456.png')
+ 3 APPPATH\Views\layout\profile.php(13): Endroid\QrCode\QrCode->writeFile('uploads/qr-code/123456.png')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\profile.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 7 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:15:58 --> Unable to generate image: check your GD installation
+in VENDORPATH\endroid\qr-code\src\Writer\PngWriter.php on line 27.
+ 1 VENDORPATH\endroid\qr-code\src\Writer\AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+ 2 VENDORPATH\endroid\qr-code\src\QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile(Object(Endroid\QrCode\QrCode), 'uploads/qr-code/123456.png')
+ 3 APPPATH\Views\layout\profile.php(13): Endroid\QrCode\QrCode->writeFile('uploads/qr-code/123456.png')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\profile.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 7 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:15:58 --> Unable to generate image: check your GD installation
+in VENDORPATH\endroid\qr-code\src\Writer\PngWriter.php on line 27.
+ 1 VENDORPATH\endroid\qr-code\src\Writer\AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+ 2 VENDORPATH\endroid\qr-code\src\QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile(Object(Endroid\QrCode\QrCode), 'uploads/qr-code/123456.png')
+ 3 APPPATH\Views\layout\profile.php(13): Endroid\QrCode\QrCode->writeFile('uploads/qr-code/123456.png')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\profile.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 7 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:16:00 --> Unable to generate image: check your GD installation
+in VENDORPATH\endroid\qr-code\src\Writer\PngWriter.php on line 27.
+ 1 VENDORPATH\endroid\qr-code\src\Writer\AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+ 2 VENDORPATH\endroid\qr-code\src\QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile(Object(Endroid\QrCode\QrCode), 'uploads/qr-code/123456.png')
+ 3 APPPATH\Views\layout\profile.php(13): Endroid\QrCode\QrCode->writeFile('uploads/qr-code/123456.png')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\profile.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 7 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:16:01 --> Unable to generate image: check your GD installation
+in VENDORPATH\endroid\qr-code\src\Writer\PngWriter.php on line 27.
+ 1 VENDORPATH\endroid\qr-code\src\Writer\AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+ 2 VENDORPATH\endroid\qr-code\src\QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile(Object(Endroid\QrCode\QrCode), 'uploads/qr-code/123456.png')
+ 3 APPPATH\Views\layout\profile.php(13): Endroid\QrCode\QrCode->writeFile('uploads/qr-code/123456.png')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\profile.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 7 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:16:01 --> Unable to generate image: check your GD installation
+in VENDORPATH\endroid\qr-code\src\Writer\PngWriter.php on line 27.
+ 1 VENDORPATH\endroid\qr-code\src\Writer\AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+ 2 VENDORPATH\endroid\qr-code\src\QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile(Object(Endroid\QrCode\QrCode), 'uploads/qr-code/123456.png')
+ 3 APPPATH\Views\layout\profile.php(13): Endroid\QrCode\QrCode->writeFile('uploads/qr-code/123456.png')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\profile.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 7 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:16:02 --> Unable to generate image: check your GD installation
+in VENDORPATH\endroid\qr-code\src\Writer\PngWriter.php on line 27.
+ 1 VENDORPATH\endroid\qr-code\src\Writer\AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+ 2 VENDORPATH\endroid\qr-code\src\QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile(Object(Endroid\QrCode\QrCode), 'uploads/qr-code/123456.png')
+ 3 APPPATH\Views\layout\profile.php(13): Endroid\QrCode\QrCode->writeFile('uploads/qr-code/123456.png')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\profile.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 7 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:16:02 --> Unable to generate image: check your GD installation
+in VENDORPATH\endroid\qr-code\src\Writer\PngWriter.php on line 27.
+ 1 VENDORPATH\endroid\qr-code\src\Writer\AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+ 2 VENDORPATH\endroid\qr-code\src\QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile(Object(Endroid\QrCode\QrCode), 'uploads/qr-code/123456.png')
+ 3 APPPATH\Views\layout\profile.php(13): Endroid\QrCode\QrCode->writeFile('uploads/qr-code/123456.png')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\profile.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 7 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:16:50 --> Unable to generate image: check your GD installation
+in VENDORPATH\endroid\qr-code\src\Writer\PngWriter.php on line 27.
+ 1 VENDORPATH\endroid\qr-code\src\Writer\AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString(Object(Endroid\QrCode\QrCode))
+ 2 VENDORPATH\endroid\qr-code\src\QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile(Object(Endroid\QrCode\QrCode), 'uploads/qr-code/123456.png')
+ 3 APPPATH\Views\layout\profile.php(13): Endroid\QrCode\QrCode->writeFile('uploads/qr-code/123456.png')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\profile.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 7 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:18:25 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:20:34 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:20:35 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:20:35 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:20:37 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:20:49 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:20:51 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:20:52 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:20:55 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:23:16 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:23:17 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:23:17 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:23:17 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:23:26 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:23:27 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:23:57 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:25:52 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:25:52 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:25:53 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:26:17 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:26:18 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:26:18 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:26:24 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:26:25 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:26:29 --> syntax error, unexpected single-quoted string "qr/123456.png", expecting ")"
+in APPPATH\Views\layout\profile.php on line 13.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('layout/profile', [], true)
+ 3 APPPATH\Controllers\Profile.php(20): view('layout/profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Profile->index()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-09 09:26:38 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:28:47 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:28:48 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:32:36 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-09 09:32:44 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

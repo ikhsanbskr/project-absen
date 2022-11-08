@@ -1,0 +1,49 @@
+CRITICAL - 2022-10-27 14:47:03 --> Undefined property: stdClass::$nama
+in APPPATH\Views\activity\laporan.php on line 111.
+ 1 APPPATH\Views\activity\laporan.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'APPPATH\\Views\\activity\\laporan.php', 111)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(181): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 14:48:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE absensi.tanggal = 2022-10-26' at line 1
+CRITICAL - 2022-10-27 14:48:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE absensi.tanggal = 2022-10-26' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `daily_activity` LEFT JOIN absensi ON DATE(daily_activity.tanggal_activity) = DATE(absensi.tanggal) WHERE daily_activity.userid = absensi.userid; WHERE absensi.tanggal = 2022-10-26', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `daily_activity` LEFT JOIN absensi ON DATE(daily_activity.tanggal_activity) = DATE(absensi.tanggal) WHERE daily_activity.userid = absensi.userid; WHERE absensi.tanggal = 2022-10-26')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `daily_activity` LEFT JOIN absensi ON DATE(daily_activity.tanggal_activity) = DATE(absensi.tanggal) WHERE daily_activity.userid = absensi.userid; WHERE absensi.tanggal = 2022-10-26')
+ 4 APPPATH\Models\ModelActivity.php(27): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `daily_activity` LEFT JOIN absensi ON DATE(daily_activity.tanggal_activity) = DATE(absensi.tanggal) WHERE daily_activity.userid = absensi.userid; WHERE absensi.tanggal = 2022-10-26')
+ 5 APPPATH\Controllers\Activity.php(176): App\Models\ModelActivity->getReport('2022-10-26')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-27 14:49:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE absensi.tanggal = 2022-10-26' at line 1
+CRITICAL - 2022-10-27 14:49:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE absensi.tanggal = 2022-10-26' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `daily_activity` LEFT JOIN absensi ON DATE(daily_activity.tanggal_activity) = DATE(absensi.tanggal) WHERE daily_activity.userid = absensi.userid; WHERE absensi.tanggal = 2022-10-26', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `daily_activity` LEFT JOIN absensi ON DATE(daily_activity.tanggal_activity) = DATE(absensi.tanggal) WHERE daily_activity.userid = absensi.userid; WHERE absensi.tanggal = 2022-10-26')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `daily_activity` LEFT JOIN absensi ON DATE(daily_activity.tanggal_activity) = DATE(absensi.tanggal) WHERE daily_activity.userid = absensi.userid; WHERE absensi.tanggal = 2022-10-26')
+ 4 APPPATH\Models\ModelActivity.php(27): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `daily_activity` LEFT JOIN absensi ON DATE(daily_activity.tanggal_activity) = DATE(absensi.tanggal) WHERE daily_activity.userid = absensi.userid; WHERE absensi.tanggal = 2022-10-26')
+ 5 APPPATH\Controllers\Activity.php(176): App\Models\ModelActivity->getReport('2022-10-26')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-27 17:20:46 --> count(): Argument #1 ($value) must be of type Countable|array, bool given
+in APPPATH\Views\activity\laporan.php on line 112.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 4 APPPATH\Controllers\Activity.php(181): view('/activity/laporan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

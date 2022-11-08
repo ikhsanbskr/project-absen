@@ -1,0 +1,12 @@
+CRITICAL - 2022-07-10 21:56:25 --> Undefined property: CodeIgniter\View\View::$endSection
+in APPPATH\Views\scan.php on line 5.
+ 1 APPPATH\Views\scan.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$endSection', 'APPPATH\\Views\\scan.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\scan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('scan', [], true)
+ 5 APPPATH\Controllers\Scan.php(19): view('scan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Scan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

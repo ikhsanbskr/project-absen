@@ -1,0 +1,36 @@
+CRITICAL - 2022-09-24 10:10:21 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Project C21\Absensi-Arcade\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Project C21\Absensi-Arcade\system\Common.php(88): realpath('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#1 D:\My Data\Project C21\Absensi-Arcade\system\Debug\Exceptions.php(471): clean_path('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#3 D:\My Data\Project C21\Absensi-Arcade\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Project C21\Absensi-Arcade\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-09-24 13:06:52 --> Object of class stdClass could not be converted to int
+in APPPATH\Controllers\Dashboard.php on line 128.
+ 1 APPPATH\Controllers\Dashboard.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class stdClass could not be converted to int', 'APPPATH\\Controllers\\Dashboard.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dashboard->checkout('0')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-24 13:10:36 --> Attempt to read property "checkout" on null
+in APPPATH\Controllers\ScanKantor.php on line 81.
+ 1 APPPATH\Controllers\ScanKantor.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "checkout" on null', 'APPPATH\\Controllers\\ScanKantor.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\ScanKantor->checkOut('0')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScanKantor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-24 13:18:06 --> Attempt to read property "checkout" on null
+in APPPATH\Controllers\ScanKantor.php on line 81.
+ 1 APPPATH\Controllers\ScanKantor.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "checkout" on null', 'APPPATH\\Controllers\\ScanKantor.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\ScanKantor->checkOut('0')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScanKantor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

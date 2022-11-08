@@ -1,0 +1,268 @@
+CRITICAL - 2022-08-26 10:22:56 --> Undefined array key "profile"
+in VENDORPATH/myth/auth/src/Config/Routes.php on line 20.
+ 1 VENDORPATH/myth/auth/src/Config/Routes.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(637): CodeIgniter\Router\RouteCollection::Myth\Auth\Config\{closure}()
+ 3 VENDORPATH/myth/auth/src/Config/Routes.php(35): CodeIgniter\Router\RouteCollection->group()
+ 4 SYSTEMPATH/Router/RouteCollection.php(388): include('VENDORPATH/myth/auth/src/Config/Routes.php')
+ 5 SYSTEMPATH/Router/RouteCollection.php(460): CodeIgniter\Router\RouteCollection->discoverRoutes()
+ 6 SYSTEMPATH/Router/Router.php(393): CodeIgniter\Router\RouteCollection->getRoutes()
+ 7 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes()
+ 8 SYSTEMPATH/CodeIgniter.php(773): CodeIgniter\Router\Router->handle()
+ 9 SYSTEMPATH/CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 10:23:48 --> Undefined array key "profile"
+in VENDORPATH/myth/auth/src/Config/Routes.php on line 20.
+ 1 VENDORPATH/myth/auth/src/Config/Routes.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(637): CodeIgniter\Router\RouteCollection::Myth\Auth\Config\{closure}()
+ 3 VENDORPATH/myth/auth/src/Config/Routes.php(35): CodeIgniter\Router\RouteCollection->group()
+ 4 SYSTEMPATH/Router/RouteCollection.php(388): include('VENDORPATH/myth/auth/src/Config/Routes.php')
+ 5 SYSTEMPATH/Router/RouteCollection.php(460): CodeIgniter\Router\RouteCollection->discoverRoutes()
+ 6 SYSTEMPATH/Router/Router.php(393): CodeIgniter\Router\RouteCollection->getRoutes()
+ 7 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes()
+ 8 SYSTEMPATH/CodeIgniter.php(773): CodeIgniter\Router\Router->handle()
+ 9 SYSTEMPATH/CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 10:23:48 --> Undefined array key "profile"
+in VENDORPATH/myth/auth/src/Config/Routes.php on line 20.
+ 1 VENDORPATH/myth/auth/src/Config/Routes.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(637): CodeIgniter\Router\RouteCollection::Myth\Auth\Config\{closure}()
+ 3 VENDORPATH/myth/auth/src/Config/Routes.php(35): CodeIgniter\Router\RouteCollection->group()
+ 4 SYSTEMPATH/Router/RouteCollection.php(388): include('VENDORPATH/myth/auth/src/Config/Routes.php')
+ 5 SYSTEMPATH/Router/RouteCollection.php(460): CodeIgniter\Router\RouteCollection->discoverRoutes()
+ 6 SYSTEMPATH/Router/Router.php(393): CodeIgniter\Router\RouteCollection->getRoutes()
+ 7 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes()
+ 8 SYSTEMPATH/CodeIgniter.php(773): CodeIgniter\Router\Router->handle()
+ 9 SYSTEMPATH/CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 10:23:48 --> Undefined array key "profile"
+in VENDORPATH/myth/auth/src/Config/Routes.php on line 20.
+ 1 VENDORPATH/myth/auth/src/Config/Routes.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(637): CodeIgniter\Router\RouteCollection::Myth\Auth\Config\{closure}()
+ 3 VENDORPATH/myth/auth/src/Config/Routes.php(35): CodeIgniter\Router\RouteCollection->group()
+ 4 SYSTEMPATH/Router/RouteCollection.php(388): include('VENDORPATH/myth/auth/src/Config/Routes.php')
+ 5 SYSTEMPATH/Router/RouteCollection.php(460): CodeIgniter\Router\RouteCollection->discoverRoutes()
+ 6 SYSTEMPATH/Router/Router.php(393): CodeIgniter\Router\RouteCollection->getRoutes()
+ 7 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes()
+ 8 SYSTEMPATH/CodeIgniter.php(773): CodeIgniter\Router\Router->handle()
+ 9 SYSTEMPATH/CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 10:29:00 --> Attempt to read property "foto_profile" on null
+in APPPATH/Views/user/profile.php on line 17.
+ 1 APPPATH/Views/user/profile.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/user/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\User->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 10:29:04 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 341.
+ 1 APPPATH/Models/ModelAbsensi.php(341): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 10:29:12 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 341.
+ 1 APPPATH/Models/ModelAbsensi.php(341): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 10:29:17 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 341.
+ 1 APPPATH/Models/ModelAbsensi.php(341): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 10:29:37 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 341.
+ 1 APPPATH/Models/ModelAbsensi.php(341): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 10:29:48 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 341.
+ 1 APPPATH/Models/ModelAbsensi.php(341): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 10:30:06 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 341.
+ 1 APPPATH/Models/ModelAbsensi.php(341): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 10:30:07 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 341.
+ 1 APPPATH/Models/ModelAbsensi.php(341): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 10:30:17 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 341.
+ 1 APPPATH/Models/ModelAbsensi.php(341): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 10:31:20 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 341.
+ 1 APPPATH/Models/ModelAbsensi.php(341): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 11:28:15 --> Undefined property: Myth\Auth\Filters\LoginFilter::$request
+in VENDORPATH/myth/auth/src/Filters/LoginFilter.php on line 29.
+ 1 VENDORPATH/myth/auth/src/Filters/LoginFilter.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Filters/Filters.php(173): Myth\Auth\Filters\LoginFilter->before()
+ 3 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Filters\Filters->run()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 11:28:31 --> Undefined property: Myth\Auth\Filters\LoginFilter::$request
+in VENDORPATH/myth/auth/src/Filters/LoginFilter.php on line 29.
+ 1 VENDORPATH/myth/auth/src/Filters/LoginFilter.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Filters/Filters.php(173): Myth\Auth\Filters\LoginFilter->before()
+ 3 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Filters\Filters->run()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 11:28:33 --> Undefined property: Myth\Auth\Filters\LoginFilter::$request
+in VENDORPATH/myth/auth/src/Filters/LoginFilter.php on line 29.
+ 1 VENDORPATH/myth/auth/src/Filters/LoginFilter.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Filters/Filters.php(173): Myth\Auth\Filters\LoginFilter->before()
+ 3 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Filters\Filters->run()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 11:35:57 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 341.
+ 1 APPPATH/Models/ModelAbsensi.php(341): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 11:36:16 --> Attempt to read property "id" on null
+in APPPATH/Models/ModelAbsensi.php on line 341.
+ 1 APPPATH/Models/ModelAbsensi.php(341): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Dashboard.php(28): App\Models\ModelAbsensi->getLast()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 13:50:26 --> Undefined array key "register"
+in VENDORPATH/myth/auth/src/Controllers/AuthController.php on line 144.
+ 1 VENDORPATH/myth/auth/src/Controllers/AuthController.php(144): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->register()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 13:52:08 --> Undefined array key "tes"
+in VENDORPATH/myth/auth/src/Config/Routes.php on line 20.
+ 1 VENDORPATH/myth/auth/src/Config/Routes.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(637): CodeIgniter\Router\RouteCollection::Myth\Auth\Config\{closure}()
+ 3 VENDORPATH/myth/auth/src/Config/Routes.php(35): CodeIgniter\Router\RouteCollection->group()
+ 4 SYSTEMPATH/Router/RouteCollection.php(388): include('VENDORPATH/myth/auth/src/Config/Routes.php')
+ 5 SYSTEMPATH/Router/RouteCollection.php(460): CodeIgniter\Router\RouteCollection->discoverRoutes()
+ 6 SYSTEMPATH/Router/Router.php(393): CodeIgniter\Router\RouteCollection->getRoutes()
+ 7 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes()
+ 8 SYSTEMPATH/CodeIgniter.php(773): CodeIgniter\Router\Router->handle()
+ 9 SYSTEMPATH/CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 13:52:11 --> Undefined array key "tes"
+in VENDORPATH/myth/auth/src/Config/Routes.php on line 20.
+ 1 VENDORPATH/myth/auth/src/Config/Routes.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(637): CodeIgniter\Router\RouteCollection::Myth\Auth\Config\{closure}()
+ 3 VENDORPATH/myth/auth/src/Config/Routes.php(35): CodeIgniter\Router\RouteCollection->group()
+ 4 SYSTEMPATH/Router/RouteCollection.php(388): include('VENDORPATH/myth/auth/src/Config/Routes.php')
+ 5 SYSTEMPATH/Router/RouteCollection.php(460): CodeIgniter\Router\RouteCollection->discoverRoutes()
+ 6 SYSTEMPATH/Router/Router.php(393): CodeIgniter\Router\RouteCollection->getRoutes()
+ 7 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes()
+ 8 SYSTEMPATH/CodeIgniter.php(773): CodeIgniter\Router\Router->handle()
+ 9 SYSTEMPATH/CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 13:52:21 --> Undefined array key "tes"
+in VENDORPATH/myth/auth/src/Config/Routes.php on line 20.
+ 1 VENDORPATH/myth/auth/src/Config/Routes.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(637): CodeIgniter\Router\RouteCollection::Myth\Auth\Config\{closure}()
+ 3 VENDORPATH/myth/auth/src/Config/Routes.php(35): CodeIgniter\Router\RouteCollection->group()
+ 4 SYSTEMPATH/Router/RouteCollection.php(388): include('VENDORPATH/myth/auth/src/Config/Routes.php')
+ 5 SYSTEMPATH/Router/RouteCollection.php(460): CodeIgniter\Router\RouteCollection->discoverRoutes()
+ 6 SYSTEMPATH/Router/Router.php(393): CodeIgniter\Router\RouteCollection->getRoutes()
+ 7 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes()
+ 8 SYSTEMPATH/CodeIgniter.php(773): CodeIgniter\Router\Router->handle()
+ 9 SYSTEMPATH/CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 13:52:23 --> Undefined array key "tes"
+in VENDORPATH/myth/auth/src/Config/Routes.php on line 20.
+ 1 VENDORPATH/myth/auth/src/Config/Routes.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(637): CodeIgniter\Router\RouteCollection::Myth\Auth\Config\{closure}()
+ 3 VENDORPATH/myth/auth/src/Config/Routes.php(35): CodeIgniter\Router\RouteCollection->group()
+ 4 SYSTEMPATH/Router/RouteCollection.php(388): include('VENDORPATH/myth/auth/src/Config/Routes.php')
+ 5 SYSTEMPATH/Router/RouteCollection.php(460): CodeIgniter\Router\RouteCollection->discoverRoutes()
+ 6 SYSTEMPATH/Router/Router.php(393): CodeIgniter\Router\RouteCollection->getRoutes()
+ 7 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes()
+ 8 SYSTEMPATH/CodeIgniter.php(773): CodeIgniter\Router\Router->handle()
+ 9 SYSTEMPATH/CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 14:34:53 --> Undefined array key "register"
+in VENDORPATH/myth/auth/src/Controllers/AuthController.php on line 144.
+ 1 VENDORPATH/myth/auth/src/Controllers/AuthController.php(144): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->register()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-26 15:03:35 --> You do not have sufficient permissions to access that page.
+in VENDORPATH/myth/auth/src/Filters/RoleFilter.php on line 45.
+ 1 SYSTEMPATH/Filters/Filters.php(173): Myth\Auth\Filters\RoleFilter->before()
+ 2 SYSTEMPATH/CodeIgniter.php(442): CodeIgniter\Filters\Filters->run()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

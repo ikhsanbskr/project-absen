@@ -1,0 +1,63 @@
+CRITICAL - 2022-07-26 20:36:44 --> explode(): Passing null to parameter #2 ($string) of type string is deprecated
+in APPPATH/Controllers/Scan.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Scan.php(26): explode()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Scan->saveqr()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 20:44:35 --> file_put_contents(/home/ashcii/Documents/Absensi/public//uploads/ttd/tes.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Scan.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Scan.php(29): file_put_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Scan->saveqr()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 22:50:54 --> explode(): Passing null to parameter #2 ($string) of type string is deprecated
+in APPPATH/Controllers/Scan.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Scan.php(26): explode()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Scan->saveqr()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 22:51:05 --> Unable to generate image: check your GD installation
+in VENDORPATH/endroid/qr-code/src/Writer/PngWriter.php on line 27.
+ 1 VENDORPATH/endroid/qr-code/src/Writer/AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString()
+ 2 VENDORPATH/endroid/qr-code/src/QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile()
+ 3 APPPATH/Views/layout/profile.php(14): Endroid\QrCode\QrCode->writeFile()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layout/profile.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Profile.php(20): view()
+ 8 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 23:58:35 --> Invalid file: \App\Views\Auth\login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 VENDORPATH/myth/auth/src/Controllers/AuthController.php(412): view()
+ 4 VENDORPATH/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 5 SYSTEMPATH/CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-26 23:58:45 --> Invalid file: \App\Views\Auth\login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 VENDORPATH/myth/auth/src/Controllers/AuthController.php(412): view()
+ 4 VENDORPATH/myth/auth/src/Controllers/AuthController.php(58): Myth\Auth\Controllers\AuthController->_render()
+ 5 SYSTEMPATH/CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->login()
+ 6 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

@@ -1,0 +1,226 @@
+CRITICAL - 2022-07-11 01:04:21 --> Undefined property: App\Controllers\Admin::$modelAdmin
+in APPPATH\Controllers\Admin.php on line 18.
+ 1 APPPATH\Controllers\Admin.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$modelAdmin', 'APPPATH\\Controllers\\Admin.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 01:08:47 --> Class "App\Models\ModelAdmin" not found
+in APPPATH\Controllers\Scan.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Scan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 01:15:32 --> Class "App\Models\ModelAdmin" not found
+in APPPATH\Controllers\Profile.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 03:12:35 --> Class "App\Models\ModelAdmin" not found
+in APPPATH\Controllers\Profile.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 03:56:14 --> str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+in APPPATH\Controllers\Scan.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated', 'APPPATH\\Controllers\\Scan.php', 25)
+ 2 APPPATH\Controllers\Scan.php(25): str_replace('data:image/png;base64,', 'ROOTPATH\\public', null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Scan->saveqr()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 22:31:30 --> Undefined array key 1
+in APPPATH\Controllers\Scan.php on line 26.
+ 1 APPPATH\Controllers\Scan.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Scan.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Scan->saveqr()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-11 22:33:48 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-11 22:38:17 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-11 22:50:12 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-11 23:13:43 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-11 23:14:23 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-11 23:14:30 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-11 23:16:03 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-11 23:16:11 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-11 23:18:05 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-11 23:18:38 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-11 23:24:53 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-11 23:25:01 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-11 23:31:24 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-11 23:33:27 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-11 23:33:36 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

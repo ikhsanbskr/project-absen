@@ -1,0 +1,625 @@
+ERROR - 2022-07-29 05:47:41 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-07-29 05:47:41 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/ModelAbsensi.php(28): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Dashboard.php(20): App\Models\ModelAbsensi->getLast()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 05:48:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM absensi) AND userid =2' at line 1
+CRITICAL - 2022-07-29 05:48:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM absensi) AND userid =2' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/ModelAbsensi.php(28): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Dashboard.php(20): App\Models\ModelAbsensi->getLast()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 05:48:27 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-07-29 05:48:27 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/ModelAbsensi.php(28): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Dashboard.php(20): App\Models\ModelAbsensi->getLast()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 05:48:52 --> Attempt to read property "checkout" on null
+in APPPATH/Views/dashboard.php on line 57.
+ 1 APPPATH/Views/dashboard.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 05:49:05 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-07-29 05:49:05 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/ModelAbsensi.php(28): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Dashboard.php(20): App\Models\ModelAbsensi->getLast()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 05:49:24 --> Attempt to read property "checkout" on null
+in APPPATH/Views/dashboard.php on line 57.
+ 1 APPPATH/Views/dashboard.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 09:05:02 --> Unable to generate image: check your GD installation
+in VENDORPATH/endroid/qr-code/src/Writer/PngWriter.php on line 27.
+ 1 VENDORPATH/endroid/qr-code/src/Writer/AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString()
+ 2 VENDORPATH/endroid/qr-code/src/QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile()
+ 3 APPPATH/Views/layout/profile.php(14): Endroid\QrCode\QrCode->writeFile()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layout/profile.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Profile.php(20): view()
+ 8 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 09:51:28 --> Undefined constant "App\Models\DESC"
+in APPPATH/Models/ModelAbsensi.php on line 27.
+ 1 APPPATH/Controllers/Dashboard.php(20): App\Models\ModelAbsensi->getLast()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 13:48:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`checkout`) AS `id AND checkout`
+FROM `absensi`
+WHERE `userid` = '2'' at line 1
+CRITICAL - 2022-07-29 13:48:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`checkout`) AS `id AND checkout`
+FROM `absensi`
+WHERE `userid` = '2'' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/ModelAbsensi.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Dashboard.php(20): App\Models\ModelAbsensi->getLast()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 13:48:55 --> Undefined property: stdClass::$checkout
+in APPPATH/Views/dashboard.php on line 57.
+ 1 APPPATH/Views/dashboard.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 13:48:56 --> Undefined property: stdClass::$checkout
+in APPPATH/Views/dashboard.php on line 57.
+ 1 APPPATH/Views/dashboard.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 13:49:51 --> Undefined property: stdClass::$id
+in APPPATH/Views/dashboard.php on line 68.
+ 1 APPPATH/Views/dashboard.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 13:51:09 --> Attempt to read property "checkout" on null
+in APPPATH/Views/dashboard.php on line 57.
+ 1 APPPATH/Views/dashboard.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 13:57:36 --> Unable to generate image: check your GD installation
+in VENDORPATH/endroid/qr-code/src/Writer/PngWriter.php on line 27.
+ 1 VENDORPATH/endroid/qr-code/src/Writer/AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString()
+ 2 VENDORPATH/endroid/qr-code/src/QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile()
+ 3 APPPATH/Views/layout/profile.php(14): Endroid\QrCode\QrCode->writeFile()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layout/profile.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Profile.php(20): view()
+ 8 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 13:59:25 --> Invalid file: layout/profile.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/User.php(20): view()
+ 4 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\User->index()
+ 5 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 14:54:21 --> Not unique table/alias: 'users'
+CRITICAL - 2022-07-29 14:54:21 --> Not unique table/alias: 'users'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin.php(21): Myth\Auth\Models\UserModel->getAll()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:02:06 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:02:06 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin.php(21): Myth\Auth\Models\UserModel->getAll()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:02:33 --> Unknown column 'auth_groups_users.users.id' in 'on clause'
+CRITICAL - 2022-07-29 15:02:33 --> Unknown column 'auth_groups_users.users.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin.php(21): Myth\Auth\Models\UserModel->getAll()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:03:27 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:03:27 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin.php(21): Myth\Auth\Models\UserModel->getAll()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:04:19 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:04:19 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin.php(21): Myth\Auth\Models\UserModel->getAll()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:04:19 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:04:19 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin.php(21): Myth\Auth\Models\UserModel->getAll()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:04:20 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:04:20 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin.php(21): Myth\Auth\Models\UserModel->getAll()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:04:20 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:04:20 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin.php(21): Myth\Auth\Models\UserModel->getAll()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:04:20 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:04:20 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin.php(21): Myth\Auth\Models\UserModel->getAll()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:04:20 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:04:20 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin.php(21): Myth\Auth\Models\UserModel->getAll()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:04:21 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:04:21 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin.php(21): Myth\Auth\Models\UserModel->getAll()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:04:21 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:04:21 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin.php(21): Myth\Auth\Models\UserModel->getAll()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:04:21 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:04:21 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 VENDORPATH/myth/auth/src/Models/UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin.php(21): Myth\Auth\Models\UserModel->getAll()
+ 7 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 8 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 15:05:17 --> Call to undefined method Myth\Auth\Models\UserModel::getAll
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Admin.php(21): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:07:43 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:07:43 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Admin.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:07:44 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:07:44 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Admin.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:07:44 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:07:44 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Admin.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:07:44 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:07:44 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Admin.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:07:44 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:07:44 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Admin.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:07:45 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:07:45 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Admin.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:07:45 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:07:45 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Admin.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:07:45 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:07:45 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Admin.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:07:45 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:07:45 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Admin.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:07:45 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:07:45 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Admin.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:07:45 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:07:45 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Admin.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:07:46 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:07:46 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Admin.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 15:07:46 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+CRITICAL - 2022-07-29 15:07:46 --> Unknown column 'auth_groups_users.user.id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Admin.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 15:11:36 --> Undefined constant "row"
+in APPPATH/Views/admin/karyawan.php on line 51.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Admin.php(25): view()
+ 5 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->karyawan()
+ 6 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 15:49:40 --> Undefined array key "register"
+in VENDORPATH/myth/auth/src/Controllers/AuthController.php on line 143.
+ 1 VENDORPATH/myth/auth/src/Controllers/AuthController.php(143): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->register()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 15:51:54 --> Undefined array key "tambah-karyawan"
+in VENDORPATH/myth/auth/src/Config/Routes.php on line 22.
+ 1 VENDORPATH/myth/auth/src/Config/Routes.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(637): CodeIgniter\Router\RouteCollection::Myth\Auth\Config\{closure}()
+ 3 VENDORPATH/myth/auth/src/Config/Routes.php(34): CodeIgniter\Router\RouteCollection->group()
+ 4 SYSTEMPATH/Router/RouteCollection.php(388): include('VENDORPATH/myth/auth/src/Config/Routes.php')
+ 5 SYSTEMPATH/Router/RouteCollection.php(460): CodeIgniter\Router\RouteCollection->discoverRoutes()
+ 6 SYSTEMPATH/Router/Router.php(393): CodeIgniter\Router\RouteCollection->getRoutes()
+ 7 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes()
+ 8 SYSTEMPATH/CodeIgniter.php(773): CodeIgniter\Router\Router->handle()
+ 9 SYSTEMPATH/CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 15:58:46 --> Undefined array key "tambah-karyawan"
+in VENDORPATH/myth/auth/src/Config/Routes.php on line 22.
+ 1 VENDORPATH/myth/auth/src/Config/Routes.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(637): CodeIgniter\Router\RouteCollection::Myth\Auth\Config\{closure}()
+ 3 VENDORPATH/myth/auth/src/Config/Routes.php(34): CodeIgniter\Router\RouteCollection->group()
+ 4 SYSTEMPATH/Router/RouteCollection.php(388): include('VENDORPATH/myth/auth/src/Config/Routes.php')
+ 5 SYSTEMPATH/Router/RouteCollection.php(460): CodeIgniter\Router\RouteCollection->discoverRoutes()
+ 6 SYSTEMPATH/Router/Router.php(393): CodeIgniter\Router\RouteCollection->getRoutes()
+ 7 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes()
+ 8 SYSTEMPATH/CodeIgniter.php(773): CodeIgniter\Router\Router->handle()
+ 9 SYSTEMPATH/CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-29 15:58:54 --> Undefined array key "tambah-karyawan"
+in VENDORPATH/myth/auth/src/Config/Routes.php on line 22.
+ 1 VENDORPATH/myth/auth/src/Config/Routes.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(637): CodeIgniter\Router\RouteCollection::Myth\Auth\Config\{closure}()
+ 3 VENDORPATH/myth/auth/src/Config/Routes.php(34): CodeIgniter\Router\RouteCollection->group()
+ 4 SYSTEMPATH/Router/RouteCollection.php(388): include('VENDORPATH/myth/auth/src/Config/Routes.php')
+ 5 SYSTEMPATH/Router/RouteCollection.php(460): CodeIgniter\Router\RouteCollection->discoverRoutes()
+ 6 SYSTEMPATH/Router/Router.php(393): CodeIgniter\Router\RouteCollection->getRoutes()
+ 7 SYSTEMPATH/Router/Router.php(181): CodeIgniter\Router\Router->checkRoutes()
+ 8 SYSTEMPATH/CodeIgniter.php(773): CodeIgniter\Router\Router->handle()
+ 9 SYSTEMPATH/CodeIgniter.php(417): CodeIgniter\CodeIgniter->tryToRouteIt()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-07-29 16:03:24 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2022-07-29 16:03:24 --> Unknown column 'username' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 VENDORPATH/myth/auth/src/Authentication/LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+ 8 VENDORPATH/myth/auth/src/Authentication/LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate()
+ 9 VENDORPATH/myth/auth/src/Controllers/AuthController.php(97): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+10 SYSTEMPATH/CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->attemptLogin()
+11 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

@@ -1,0 +1,66 @@
+CRITICAL - 2022-10-26 17:55:11 --> syntax error, unexpected end of file
+in APPPATH\Views\activity\laporan.php on line 116.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 3 APPPATH\Controllers\Activity.php(181): view('/activity/laporan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-26 17:58:40 --> Call to undefined method App\Models\ModelActivity::activityReport
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Activity.php(176): CodeIgniter\Model->__call('activityReport', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-26 18:00:02 --> Undefined property: stdClass::$checkin
+in APPPATH\Views\activity\laporan.php on line 113.
+ 1 APPPATH\Views\activity\laporan.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$checkin', 'APPPATH\\Views\\activity\\laporan.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(181): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-26 18:21:26 --> Undefined property: stdClass::$tanggal
+in APPPATH\Views\activity\input.php on line 87.
+ 1 APPPATH\Views\activity\input.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tanggal', 'APPPATH\\Views\\activity\\input.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/input', [], true)
+ 5 APPPATH\Controllers\Activity.php(30): view('/activity/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-26 18:21:38 --> Undefined property: stdClass::$tanggal
+in APPPATH\Views\activity\input.php on line 87.
+ 1 APPPATH\Views\activity\input.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tanggal', 'APPPATH\\Views\\activity\\input.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/input', [], true)
+ 5 APPPATH\Controllers\Activity.php(30): view('/activity/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-26 18:22:26 --> Undefined property: stdClass::$tanggal
+in APPPATH\Views\activity\input.php on line 91.
+ 1 APPPATH\Views\activity\input.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tanggal', 'APPPATH\\Views\\activity\\input.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/input', [], true)
+ 5 APPPATH\Controllers\Activity.php(30): view('/activity/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,28 @@
+CRITICAL - 2022-08-05 09:08:14 --> Undefined property: stdClass::$tgl
+in APPPATH/Views/admin/absen.php on line 57.
+ 1 APPPATH/Views/admin/absen.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/absen.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Admin.php(199): view()
+ 6 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->absen()
+ 7 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-05 10:09:45 --> Undefined variable $validation
+in APPPATH/Views/dashboard/staff.php on line 7.
+ 1 APPPATH/Views/dashboard/staff.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard/staff.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(429): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/dashboard.php(12): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Dashboard.php(23): view()
+10 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

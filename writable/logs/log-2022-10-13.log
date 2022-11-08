@@ -1,0 +1,101 @@
+CRITICAL - 2022-10-13 21:40:18 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('absen', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 21:40:22 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('absen-marketing', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 22:03:29 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Filters\Filters->run('absen', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 22:21:17 --> Call to undefined method CodeIgniter\View\View::user()
+in APPPATH\Views\activity\input.php on line 6.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/input', [], true)
+ 4 APPPATH\Controllers\Activity.php(16): view('/activity/input', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->index()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 22:28:48 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\My Data\Project C21\Absensi-Arcade-Fix\app\Models\ModelAbsensi.php on line 64
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\ModelAbsensi.php(64): CodeIgniter\Database\BaseBuilder->like('nama', null)
+ 2 APPPATH\Controllers\User.php(114): App\Models\ModelAbsensi->getDateStaff('2022-10-13', null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->filterAbsen()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 22:28:52 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\My Data\Project C21\Absensi-Arcade-Fix\app\Models\ModelAbsensi.php on line 64
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\ModelAbsensi.php(64): CodeIgniter\Database\BaseBuilder->like('nama', null)
+ 2 APPPATH\Controllers\User.php(114): App\Models\ModelAbsensi->getDateStaff('ROOTPATH\\public', null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\User->filterAbsen()
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 22:34:45 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Activity.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Activity.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Activity')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Activity')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Activity', true)
+ 5 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 22:37:13 --> Undefined variable $segment
+in APPPATH\Views\layout\sidebar.php on line 30.
+ 1 APPPATH\Views\layout\sidebar.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $segment', 'APPPATH\\Views\\layout\\sidebar.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/sidebar', null, true)
+ 5 APPPATH\Views\layout\template.php(101): CodeIgniter\View\View->include('layout/sidebar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/input_filter', [], true)
+10 APPPATH\Controllers\Activity.php(26): view('/activity/input_filter', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->filterActivity()
+12 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 22:42:12 --> Array to string conversion
+in APPPATH\Views\activity\input_filter.php on line 36.
+ 1 APPPATH\Views\activity\input_filter.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\activity\\input_filter.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\input_filter.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/input_filter', [], true)
+ 5 APPPATH\Controllers\Activity.php(27): view('/activity/input_filter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->filterActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-13 22:43:10 --> Array to string conversion
+in APPPATH\Views\activity\input_filter.php on line 36.
+ 1 APPPATH\Views\activity\input_filter.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\activity\\input_filter.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\input_filter.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/input_filter', [], true)
+ 5 APPPATH\Controllers\Activity.php(27): view('/activity/input_filter', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->filterActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

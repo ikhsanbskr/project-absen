@@ -1,0 +1,18 @@
+CRITICAL - 2022-09-05 13:37:56 --> explode(): Passing null to parameter #2 ($string) of type string is deprecated
+in APPPATH/Controllers/User.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/User.php(36): explode()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\User->saveFoto()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-05 13:50:38 --> explode(): Passing null to parameter #2 ($string) of type string is deprecated
+in APPPATH/Controllers/User.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/User.php(36): explode()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\User->saveFoto()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

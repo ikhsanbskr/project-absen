@@ -1,0 +1,122 @@
+CRITICAL - 2022-10-19 07:55:52 --> Undefined variable $tanggal
+in APPPATH\Views\activity\input.php on line 33.
+ 1 APPPATH\Views\activity\input.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'APPPATH\\Views\\activity\\input.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/input', [], true)
+ 5 APPPATH\Controllers\Activity.php(22): view('/activity/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-19 07:56:53 --> Undefined variable $activity
+in APPPATH\Views\activity\input.php on line 47.
+ 1 APPPATH\Views\activity\input.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activity', 'APPPATH\\Views\\activity\\input.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/input', [], true)
+ 5 APPPATH\Controllers\Activity.php(23): view('/activity/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-19 12:45:35 --> Too few arguments to function App\Controllers\Activity::editActivity(), 0 passed in D:\My Data\Project C21\Absensi-Arcade-Fix\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Activity.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->editActivity()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-19 12:46:02 --> Too few arguments to function App\Controllers\Activity::editActivity(), 0 passed in D:\My Data\Project C21\Absensi-Arcade-Fix\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Activity.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->editActivity()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-19 12:51:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `users` ON `users`.`id` = `daily_activity`.`userid`
+WHERE `tanggal...' at line 3
+CRITICAL - 2022-10-19 12:51:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `users` ON `users`.`id` = `daily_activity`.`userid`
+WHERE `tanggal...' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+OUTER JOIN `users` ON `users`.`id` = `daily_activity`.`userid`
+WHERE `tanggal` = \'2022-10-17\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+OUTER JOIN `users` ON `users`.`id` = `daily_activity`.`userid`
+WHERE `tanggal` = \'2022-10-17\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+OUTER JOIN `users` ON `users`.`id` = `daily_activity`.`userid`
+WHERE `tanggal` = \'2022-10-17\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `daily_activity`.`id` as `activityid`
+FROM `daily_activity`
+OUTER JOIN `users` ON `users`.`id` = `daily_activity`.`userid`
+WHERE `tanggal` = :tanggal:', [...], false)
+ 5 APPPATH\Models\ModelActivity.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Activity.php(173): App\Models\ModelActivity->getReport('2022-10-17')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-19 14:59:21 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\activity\laporan.php on line 85.
+ 1 APPPATH\Views\activity\laporan.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\activity\\laporan.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(177): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-19 15:00:27 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\activity\laporan.php on line 85.
+ 1 APPPATH\Views\activity\laporan.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\activity\\laporan.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(177): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-19 15:01:05 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\activity\laporan.php on line 85.
+ 1 APPPATH\Views\activity\laporan.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\activity\\laporan.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(177): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-19 15:01:12 --> foreach() argument must be of type array|object, int given
+in APPPATH\Views\activity\laporan.php on line 85.
+ 1 APPPATH\Views\activity\laporan.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, int given', 'APPPATH\\Views\\activity\\laporan.php', 85)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\activity\\laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/activity/laporan', [], true)
+ 5 APPPATH\Controllers\Activity.php(177): view('/activity/laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-19 15:03:46 --> Call to undefined method Myth\Auth\Models\UserModel::getReportActivity
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Activity.php(174): CodeIgniter\Model->__call('getReportActivity', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Activity->laporanActivity()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

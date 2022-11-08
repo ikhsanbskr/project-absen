@@ -1,0 +1,121 @@
+CRITICAL - 2022-07-12 11:21:05 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-12 11:23:01 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\My Data\Web Programming\Absensi\system\Common.php:88
+Stack trace:
+#0 D:\My Data\Web Programming\Absensi\system\Common.php(88): realpath('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#1 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(471): clean_path('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#3 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(476): array_map(Object(Closure), Array)
+#4 D:\My Data\Web Programming\Absensi\system\Debug\Exceptions.php(109): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-12 11:23:25 --> time() expects exactly 0 arguments, 1 given
+in APPPATH\Controllers\Scan.php on line 30.
+ 1 APPPATH\Controllers\Scan.php(30): time('H:i:s')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Scan->saveqr()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-12 00:17:19 --> Invalid file: absen.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('absen.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('absen', [], true)
+ 3 APPPATH\Controllers\Admin.php(117): view('absen', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->absen()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-12 00:18:06 --> Invalid file: absen.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('absen.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('absen', [], true)
+ 3 APPPATH\Controllers\Admin.php(117): view('absen', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->absen()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-12 00:18:07 --> Invalid file: absen.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('absen.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('absen', [], true)
+ 3 APPPATH\Controllers\Admin.php(117): view('absen', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->absen()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-12 00:30:37 --> Undefined variable $karyawan
+in APPPATH\Views\admin\absen.php on line 24.
+ 1 APPPATH\Views\admin\absen.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $karyawan', 'APPPATH\\Views\\admin\\absen.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\absen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/absen', [], true)
+ 5 APPPATH\Controllers\Admin.php(118): view('/admin/absen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->absen()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-12 00:30:46 --> Undefined variable $absensi
+in APPPATH\Views\admin\absen.php on line 24.
+ 1 APPPATH\Views\admin\absen.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $absensi', 'APPPATH\\Views\\admin\\absen.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\absen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/absen', [], true)
+ 5 APPPATH\Controllers\Admin.php(118): view('/admin/absen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->absen()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-12 00:31:07 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\absen.php on line 27.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/absen', [], true)
+ 4 APPPATH\Controllers\Admin.php(118): view('/admin/absen', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->absen()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-12 00:31:49 --> Undefined property: stdClass::$nama_karyawan
+in APPPATH\Views\admin\absen.php on line 27.
+ 1 APPPATH\Views\admin\absen.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_karyawan', 'APPPATH\\Views\\admin\\absen.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\absen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/absen', [], true)
+ 5 APPPATH\Controllers\Admin.php(118): view('/admin/absen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->absen()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-12 02:53:58 --> Undefined property: stdClass::$checkout
+in APPPATH\Views\admin\absen.php on line 32.
+ 1 APPPATH\Views\admin\absen.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$checkout', 'APPPATH\\Views\\admin\\absen.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\absen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('/admin/absen', [], true)
+ 5 APPPATH\Controllers\Admin.php(118): view('/admin/absen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->absen()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

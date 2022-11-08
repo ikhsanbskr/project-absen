@@ -1,0 +1,25 @@
+CRITICAL - 2022-08-17 23:10:28 --> Call to undefined method App\Models\ModelAbsensi::getUserToday
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Dashboard.php(29): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-17 23:10:29 --> Call to undefined method App\Models\ModelAbsensi::getUserToday
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Dashboard.php(29): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-08-17 23:59:50 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/ashcii/Documents/Absensi/app/Models/ModelAbsensi.php on line 30
+in SYSTEMPATH/Database/BaseBuilder.php on line 954.
+ 1 APPPATH/Models/ModelAbsensi.php(30): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Controllers/Admin.php(249): App\Models\ModelAbsensi->getDate()
+ 3 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Admin->filterpdf()
+ 4 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

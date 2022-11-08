@@ -1,0 +1,34 @@
+ERROR - 2022-08-08 16:46:31 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2022-08-08 16:46:31 --> Unknown column 'username' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 VENDORPATH/myth/auth/src/Authentication/LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+ 8 VENDORPATH/myth/auth/src/Authentication/LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate()
+ 9 VENDORPATH/myth/auth/src/Controllers/AuthController.php(97): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+10 SYSTEMPATH/CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->attemptLogin()
+11 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+ERROR - 2022-08-08 16:47:27 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2022-08-08 16:47:27 --> Unknown column 'username' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 VENDORPATH/myth/auth/src/Authentication/LocalAuthenticator.php(140): CodeIgniter\BaseModel->first()
+ 8 VENDORPATH/myth/auth/src/Authentication/LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate()
+ 9 VENDORPATH/myth/auth/src/Controllers/AuthController.php(97): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+10 SYSTEMPATH/CodeIgniter.php(898): Myth\Auth\Controllers\AuthController->attemptLogin()
+11 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

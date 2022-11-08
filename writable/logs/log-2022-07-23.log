@@ -1,0 +1,58 @@
+CRITICAL - 2022-07-23 11:32:26 --> Unable to generate image: check your GD installation
+in VENDORPATH/endroid/qr-code/src/Writer/PngWriter.php on line 27.
+ 1 VENDORPATH/endroid/qr-code/src/Writer/AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString()
+ 2 VENDORPATH/endroid/qr-code/src/QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile()
+ 3 APPPATH/Views/layout/profile.php(14): Endroid\QrCode\QrCode->writeFile()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layout/profile.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Profile.php(20): view()
+ 8 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-23 14:49:15 --> syntax error, unexpected token "if"
+in APPPATH/Controllers/Home.php on line 39.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-23 14:49:27 --> syntax error, unexpected token "if"
+in APPPATH/Controllers/Home.php on line 39.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-23 14:49:29 --> syntax error, unexpected token "if"
+in APPPATH/Controllers/Home.php on line 39.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(848): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-07-23 15:14:10 --> Unable to generate image: check your GD installation
+in VENDORPATH/endroid/qr-code/src/Writer/PngWriter.php on line 27.
+ 1 VENDORPATH/endroid/qr-code/src/Writer/AbstractWriter.php(77): Endroid\QrCode\Writer\PngWriter->writeString()
+ 2 VENDORPATH/endroid/qr-code/src/QrCode.php(412): Endroid\QrCode\Writer\AbstractWriter->writeFile()
+ 3 APPPATH/Views/layout/profile.php(14): Endroid\QrCode\QrCode->writeFile()
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layout/profile.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Profile.php(20): view()
+ 8 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Profile->index()
+ 9 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
